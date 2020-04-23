@@ -20,6 +20,8 @@ elif temp > 37:
         tl = int(input("Si estuvo en zonas de casos de transmisión local confirmados introduzca 1, sino introduzca 2: "))
         if ps == 1 or cc == 1 or ve == 1 or tl == 1 or edad >= 60:
            print("Usted es un caso sospechoso", end = " " )
+        else:
+            print("Usted no es considerado un caso sospechoso")
         if ps == 2 and cc == 2 and ve == 2 and tl == 1:
            print("Y es considerado caso autóctono")
     else:
