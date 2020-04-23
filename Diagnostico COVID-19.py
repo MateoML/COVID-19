@@ -23,8 +23,8 @@ elif temp > 37:
         if ps == 2 and cc == 2 and ve == 2 and tl == 1:
            print("Y es considerado caso autóctono")
     else:
-         print("Usted no es considerado un caso no sospechoso")
-
+         print("Usted no es considerado un caso sospechoso")
+else: print("UsteD no es considerado un caso sospechoso")
 
 
 
